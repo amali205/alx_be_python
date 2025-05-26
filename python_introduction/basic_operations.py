@@ -1,5 +1,4 @@
-number1= 10
-number2= 5
+["number1 = 10", "number2 = 5"]
 r1= number1 + number2 
 r2 = number1 - number2 
 r3 = number1 * number2 
