@@ -1,9 +1,8 @@
-i=int (input("Enter your monthly income:"))
-ib= int(input("Enter your total monthly expenses:"))
-sav= i- ib
-prosav = sav*12 +(int( sav*12*0.05))
+monthly_income=int (input("Enter your monthly income:"))
+monthly_expenses= int(input("Enter your total monthly expenses:"))
+monthly_savings= monthly_income - monthly_expenses
+ProjectedSavings = monthly_savings*12 +(int( monthly_savings*12*0.05))
 
-print (i)
-print (ib)
-print (sav)
-print (prosav)
+
+print ("Your monthly savings are $", monthly_savings)
+print ("Projected savings after one year, with interest, is: $", ProjectedSavings)
