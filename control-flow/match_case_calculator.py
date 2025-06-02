@@ -3,10 +3,18 @@ num2= int(input("Enter the second number: "))
 operation = input("Choose the operation (+, -, *, /): ")
 
 match operation :
-     case "+" : print (f"The result is {num1+num2}.")
-     case "-" : print (f"The result is  {num1-num2}.")
-     case "*" : print (f"The result is {num1*num2}.")
+     case "+" : 
+        Theresult= num1 + num2
+        print (f"The result is {Theresult}.")
+     case "-" : 
+        Theresult= num1 - num2
+        print (f"The result is  {Theresult}.")
+     case "*" :
+        Theresult= num1 * num2
+        print (f"The result is {Theresult}.")
      case "/" : 
         if num2 == 0: print ("Cannot divide by zero.")
-        else : print (f"The result is {num1/num2}.")
+        else : 
+            Theresult= num1 / num2
+            print (f"The result is {Theresult}.")
         
