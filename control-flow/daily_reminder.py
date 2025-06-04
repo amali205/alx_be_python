@@ -1,6 +1,6 @@
-Task = input (" enter your tasks :")
-Priority = input("task's priority [high, medium, low] :")
-Time_bound = input("is the task time-bound [yes or no] : ")
+Task = input ("Enter your task:")
+Priority = input("Priority (high/medium/low):")
+Time_bound = input("Is it time-bound?(yes/no): ")
 reminder = "is a high priority task that requires immediate attention today!"
 Note="is a low priority task. Consider completing it when you have free time."
 match Priority :
