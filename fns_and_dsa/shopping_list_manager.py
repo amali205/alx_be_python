@@ -13,7 +13,7 @@ while True:
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            # Prompt for and add an item
+            input("Enter the item to add: ")
             pass
         elif choice == '2':
             # Prompt for and remove an item
