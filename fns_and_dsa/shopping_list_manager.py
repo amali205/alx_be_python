@@ -1,18 +1,28 @@
-["num1, num2, operation"]
-def perform_operation(num1 , num2 , operation):
-    if operation == 'add': 
-        print(float(num1) + float(num2))
-    elif operation == 'subtract':
-         print(float(num1) - float(num2))
-    elif operation == 'multiply':
-         print(float(num1) * float(num2))
-    elif operation == 'divide':
-      print(float(num1) / float(num2))
-    else:
-        if num2 == 0 and operation == "divide":
-            print("eror")
+shopping_list=[]
+def display_menu():
+    print("Shopping List Manager")
+    print("1. Add Item")
+    print("2. Remove Item")
+    print("3. View List")
+    print("4. Exit")
 
-    
-perform_operation(float(input("enter num1 :")), float(input("enter num2 :")),  input("chose the operation ['add', 'subtract', 'multiply', 'divide']"))  
-    
+def main():
+ shopping_list = []
+while True:
+        display_menu()
+        choice = input("Enter your choice: ")
 
+        if choice == '1':
+            # Prompt for and add an item
+            pass
+        elif choice == '2':
+            # Prompt for and remove an item
+            pass
+        elif choice == '3':
+            # Display the shopping list
+            pass
+        elif choice == '4':
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please try again.")
