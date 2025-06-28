@@ -9,6 +9,5 @@ def safe_divide(numerator, denominator):
         return "Error: Cannot divide by zero."
     except ValueError :
         return "Error: Please enter numeric values only."
-num = input("enter your first number: ")
-den = input("enter your second number: ")
-print (safe_divide(num , den))
+
+
