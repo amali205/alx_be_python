@@ -5,9 +5,9 @@ def safe_divide(numerator, denominator):
        return num / den
 
     except ZeroDivisionError :
-        return "you can not divide by zero"
+        return "Error: Cannot divide by zero."
     except ValueError :
-        return " only integers was accepted"
+        return ""
 num = input("enter your first number: ")
 den = input("enter your second number: ")
 print (safe_divide(num , den))
