@@ -16,6 +16,9 @@ class Book:
 
 s = Book("1984" , "George Orwell" , 1949)
 
+print (s) 
+print (repr(s)) 
 
+del Book
 
 
