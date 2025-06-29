@@ -19,8 +19,9 @@ class PrintBook(Book):
     return f"{self.title} {self.author} {self.page_count}"
 
 class Library:
-   books = []
+   
    def add_book(self, book):
+     self.books= []
      self.books.append(book)
    def list_books(self):
      for book in self.books:
