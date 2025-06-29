@@ -14,7 +14,7 @@ class Book:
     def __del__(self):
         print (f"Deleting {self.title}")
 
-s = Book("name" , "ahmed" , 2000)
+s = Book("1984" , "George Orwell" , 1949)
 
 print (s) 
 print (repr(s)) 
