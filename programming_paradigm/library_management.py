@@ -21,13 +21,13 @@ class Library:
                 return
         print("Sorry, book is not available.")
 
-    def return_book(self, title):
+    def return_book(self, title):  # ✅ method name must match exactly
         for book in self._books:
-            if book.title == title and book._is_checked_out == True:
+            if book.title == title and book._is_checked_out:
                 book._is_checked_out = False
                 print(f"{book.title} has been returned.")
                 return
-        print("Sorry, book was not checked out.")
+        print("Book not found or was not checked out.")
 
     def list_available_books(self):
         print("Available books:")
