@@ -1,9 +1,15 @@
-# 📗 Book class
 class Book:
     def __init__(self, title, author):
         self.title = title
         self.author = author
-        self._is_checked_out = False  # means the book is available
+        self._is_checked_out = False  # private status
+
+    def check_out(self):  # ✅ required method
+        self._is_checked_out = True
+
+    def return_book(self):  # ✅ required method
+        self._is_checked_out = False
+
 
 # 📘 Library class
 class Library:
